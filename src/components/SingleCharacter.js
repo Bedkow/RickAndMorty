@@ -37,10 +37,10 @@ function SingleCharacter({ character }) {
 	let handleSetFavorite = () => {
 		if (favorite === starInactive) {
 			favorite = starActive;
-			let isFavorite = true;
+			// let isFavorite = true;
 		} else {
 			favorite = starInactive;
-			let isFavorite = false;
+			// let isFavorite = false;
 		}
 		setFavorite(favorite);
 	};
